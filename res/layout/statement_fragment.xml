@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/menu_background">
+    
+
+      <TextView
+        android:id="@+id/statement_top_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/statement"
+        android:textColor="#33B5E5"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+      
+       <View
+	    android:id="@+id/rules_separator_top"
+		android:layout_width="80dp"
+		android:layout_height="2dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginBottom="2dp"
+		android:visibility="visible"
+		android:background="#FFFFFF" />
+       
+       <!-- TEXT AREA -->
+
+       <ScrollView
+           android:id="@+id/statement_scrollview"
+           android:layout_width="match_parent"
+           android:layout_height="0dip"
+           android:layout_weight="1"
+            >
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_margin="10dp" >
+
+               	<TextView
+		           android:id="@+id/statement_app_name"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:textColor="#33B5E5"
+		           android:textAppearance="?android:attr/textAppearanceMedium"
+		           android:text="@string/app_name">		            
+               	</TextView>
+       			<TextView
+		           android:id="@+id/statement_game_explained"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:textColor="#33B5E5"
+		           android:text="@string/game_explained">		            
+               </TextView>
+	 	<View
+			android:id="@+id/statement_third_view"
+			android:layout_width="80dp"
+			android:layout_height="2dp"
+			android:layout_marginLeft="2dp"
+			android:layout_marginTop="10dp"
+			android:layout_marginBottom="10dp"
+			android:visibility="visible"
+			android:background="#FFFFFF" />
+ 	
+               <TextView
+                   android:id="@+id/statement_game_examples"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="#33B5E5"
+                   android:text="@string/game_examples">
+               </TextView>
+                           
+               <TextView
+                   android:id="@+id/statement_rule_knight"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="#33B5E5"
+                   android:text="@string/rule_knight_explained">
+               </TextView>
+               <TextView
+                   android:id="@+id/statement_rule_queen"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="#33B5E5"
+                   android:text="@string/rule_queen_explained">
+               </TextView>
+               <TextView
+                   android:id="@+id/statement_rule_king"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="#33B5E5"
+                   android:text="@string/rule_king_explained">
+               </TextView>
+       <View
+		    android:id="@+id/statement_first_view"
+			android:layout_width="80dp"
+			android:layout_height="2dp"
+			android:layout_marginLeft="2dp"
+			android:layout_marginTop="10dp"
+			android:layout_marginBottom="10dp"
+			android:visibility="visible"
+			android:background="#FFFFFF" />
+	 			<TextView
+                   android:id="@+id/statement_about_first"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="#33B5E5"
+                   android:text="@string/about_app_first">
+               </TextView>
+
+  
+               <TextView
+                   android:id="@+id/statement_about_second"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="#33B5E5"
+                   android:text="@string/about_app_second">
+               </TextView>
+  	
+ 		<View
+			android:id="@+id/statement_fourth_view"
+			android:layout_width="fill_parent"
+			android:layout_height="2dp"
+			android:layout_margin="2dp"
+			android:visibility="visible"
+			android:background="#FFFFFF" />
+           </LinearLayout>
+       </ScrollView>
+
+  	<LinearLayout 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="5dp">
+    	<Button
+	        android:id="@+id/statement_ok_button"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+			android:textColor="#33B5E5"
+	        android:background="@drawable/button_selector"
+	        android:text="@string/ok" />
+	</LinearLayout>
+   
+</LinearLayout>

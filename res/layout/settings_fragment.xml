@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/options_text"
+        android:text="@string/game_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#33B5E5"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/options_separator"
+        android:layout_width="90dp"
+        android:layout_height="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="10dp"
+        android:background="#FFFFFF"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/first_options_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option_auto_newgame"
+            android:textColor="#33B5E5" />
+
+        <CheckBox
+            android:id="@+id/checkbox_autoDeck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:checked="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/second_options_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/options_mute"
+            android:textColor="#33B5E5" />
+
+        <CheckBox
+            android:id="@+id/checkbox_mute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/third_options_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/options_vibration"
+            android:textColor="#33B5E5" />
+
+        <CheckBox
+            android:id="@+id/checkbox_vibration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp" />
+    </LinearLayout>
+<View 
+    	android:layout_width="fill_parent"
+    	android:layout_height="0dip"
+    	android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/recommended_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recommended"
+        android:textColor="#33B5E5"
+        android:textStyle="italic"
+        android:gravity="bottom|right"
+        android:layout_marginRight="10dp" />
+    <TextView
+        android:id="@+id/notrecommended_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/not_recommended"
+        android:textColor="#33B5E5"
+        android:textStyle="italic"
+        android:gravity="bottom|right"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/settings_cancel_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector"
+            android:text="@string/cancel"
+            android:textColor="@color/button_text_color" />
+
+        <Button
+            android:id="@+id/settings_ok_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector"
+            android:text="@string/ok"
+            android:textColor="@color/button_text_color" />
+    </LinearLayout>
+
+</LinearLayout>

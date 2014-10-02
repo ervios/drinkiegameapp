@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+       	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:baselineAligned="false">
+	    <TextView
+	        android:id="@+id/sipTextCounter"
+	        android:layout_alignParentTop="true"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="5dp"
+	        android:layout_marginLeft="5dp"
+	        android:text="@string/sips"
+	        android:textColor="#33B5E5" 
+	        android:textAppearance="?android:attr/textAppearanceSmall" >
+	    </TextView>
+	    <TextView
+	        android:id="@+id/sipCounter"
+	        android:layout_toRightOf="@id/sipTextCounter"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textIsSelectable="true"
+	        android:layout_marginTop="5dp"
+	        android:layout_marginLeft="5dp"
+	        android:text="@string/blank"
+	        android:textColor="#33B5E5" 
+	        android:textAppearance="?android:attr/textAppearanceSmall" >
+	    </TextView>
+	
+		         <TextView
+		        android:id="@+id/cardsleft"
+		        android:layout_below="@id/sipTextCounter"
+		        android:textIsSelectable="true"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp"
+		        android:layout_marginLeft="5dp"
+		        android:text="@string/cards_left"
+		        android:textColor="#33B5E5" 
+		        android:textAppearance="?android:attr/textAppearanceSmall" >
+		        
+		    </TextView>
+		     <TextView
+		        android:id="@+id/card_counter"
+		        android:layout_below="@id/sipCounter"
+		        android:layout_toRightOf="@id/cardsleft"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textIsSelectable="true"
+		        android:text="@string/blank"
+		        android:layout_marginTop="5dp"
+		        android:layout_marginLeft="5dp"
+		        android:textColor="#33B5E5" 
+		        android:textAppearance="?android:attr/textAppearanceSmall" >
+		    </TextView>
+	    	    <Button 
+        android:id="@+id/addfive_button"
+        android:layout_alignParentRight="true"
+        android:text="@string/addfive_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:textColor="@color/button_text_color" >
+    </Button>
+    </RelativeLayout>
+    
+    <ImageButton
+        	android:id="@+id/imageButton"
+        	android:contentDescription="@string/app_name"
+        	android:layout_width="match_parent"
+        	android:layout_margin="15dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1" />
+    <View
+        	android:id="@+id/separator_bottom"
+          	android:layout_width="fill_parent"
+          	android:layout_height="2dp"
+          	android:visibility="visible"
+          	android:background="#33B5E5"/>
+    
+    <TextView
+        	android:id="@+id/bottom_textField"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:gravity="center"
+        	android:text="@string/init_deck"
+        	android:layout_weight="0.2"
+        	android:textAppearance="?android:attr/textAppearanceLarge"
+        	android:layout_marginBottom="2dp"
+        	android:textColor="#33B5E5" />
+ 
+</LinearLayout>

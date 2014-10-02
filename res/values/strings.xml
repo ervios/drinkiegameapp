@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- In many activities etc. -->
+    <string name="app_name">Drinkie!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="blank"> </string>
+   	<string name="delete_rule">Delete</string>
+   	<string name="cancel">Cancel</string>
+	<string name="ok">OK</string>
+	
+    <!--MenuButtons-->
+    
+    <!-- PLAY GAME STRINGS -->
+    <string name="play">Play</string>
+    
+     	<string name="init_deck">Shake me to shuffle cards!</string>
+       	<string name="shuffle_enough">Cards shuffled!</string>
+    	<string name="shuffle_toomuch">You sure are a shuffle Queen!</string>
+    	<string name="shuffle_waytoomuch">Okay you trying to make me crash biatch?</string>
+    	
+    <string name="continue_game">Continue</string>
+    	<string name="touch_card">Touch the card!</string>
+    	<string name="sips">Rough total sips: </string>
+    	<string name="addfive_button">+5 sips</string>
+    	<string name="cards_left">Cards left: </string>
+    	
+    <!-- RULES STRINGS -->
+    <string name="rules">Rules</string>
+    
+    	<string name="rule_knight">Knight</string>
+			<string name="rule_knight_backup">Come up with a game!</string>
+		<string name="rule_queen">Queen card</string>
+			<string name="rule_queen_backup">Come up with a rule!</string>
+		<string name="rule_king">King card</string>
+			<string name="rule_king_backup">The rule of the thumb!</string>
+		<string name="rule_ace">Ace</string>
+			<string name="rule_ace_backup">One lousy, cheap, meaningless sip for you!</string>
+    	<string name="edit_rule">Edit rule</string>
+    
+    <!-- OPTIONS STRINGS -->
+    <string name="game_options">Options</string>
+    
+    	<string name="option_auto_newgame">Automatically make a new deck of cards*</string>
+		<string name="options_mute">Mute sounds**</string>
+		<string name="options_vibration">Vibrations off</string>
+    	<string name="not_recommended">**Not recommended</string>
+		<string name="recommended">*Recommended</string>
+	
+	<!-- STATEMENT / ABOUT STRINGS -->
+    <string name="statement">About</string>
+		<string name="game_explained">\nThis game comes in variation. To edit a rule for one of the special cards, hold down a rule in the Rules section and you will be able to edit it!</string>
+		<string name="game_examples">Here is some examples that I have put together:</string>
+    	<string name="rule_knight_explained">\nKnight: Come up with a game!\n<i>ex. "Cities in Canada", the first one to not come up with one has to drink 5 sips!</i></string>
+    	<string name="rule_queen_explained">\nQueen: Come up with a rule!\n<i>Decide a rule that we last during the whole game, ex. "No cursing", every time someone swears he or she has to drink 5 sips!</i></string>
+   		<string name="rule_king_explained">\nKing: The rule of the thumb!\n<i>The person who gets this card has to raise their thumb in disguise at some point, someone will be the last one to raise their thumb and has to drink 5 sips!</i></string>
+    	<string name="about_app_first">Please contact me for any changes or extends you would like to have implemented!</string>
+		<string name="about_app_second">\nI hope you enjoy the application and drink responsibly, or whatever you use it for&#8230;\n\n<i><b> ervios</b></i> 2013&#169;<i>\n Åland University of Applied Sciences.</i></string>
+    	
+	 <string name="action_settings">Settings</string>
+</resources>
